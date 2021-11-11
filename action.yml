@@ -1,0 +1,20 @@
+name: render-markdown-with-ejs
+
+description: Render markdown with the given ejs template.
+
+inputs:
+  template-file-path:
+    description: ejs template file path.
+    required: false
+    default: template.md
+  target-file-path:
+    description: target markdown file path.
+    required: false
+    default: README.md
+  data:
+    description: data to be used to render ejs templates.
+    required: false
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

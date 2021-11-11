@@ -1,0 +1,20 @@
+{
+  "name": "@narkdown/render-markdown-with-ejs",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Younho Choo",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.js --license LICENSE"
+  },
+  "dependencies": {
+    "@actions/core": "1.6.0",
+    "ejs": "3.1.6",
+    "prettier": "2.4.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "0.31.1"
+  }
+}
