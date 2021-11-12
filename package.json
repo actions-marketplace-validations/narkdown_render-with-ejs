@@ -1,6 +1,6 @@
 {
   "name": "@narkdown/render-with-ejs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Writes a markdown file with ejs template in GitHub Action",
   "keywords": [
     "ejs",
